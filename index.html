@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <!-- box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--- custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!---- header -->
+    <header class="header">
+        <a href="#" class="logo"> Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+
+    </header>
+    <!---home section-->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3> Hi , It's Me</h3>
+            <h1> Tanya Batra</h1>
+            <h3>And I'm a <span> Web Developer</span></h3>
+            <p>Turning creative ideas into fun, interactive digital solutions is what I love most
+                as a web developer.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/tanya-batra-ab076a277"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/coder_sculptor/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/tanya-batra"><i class='bx bxl-github'></i></a>
+                <a href="https://tanyabatra949@gmail.com"><i class='bx bxl-gmail'></i></a>
+            </div>
+            <a href="pdf/resume.pdf" download class="btn">Download CV</a>
+        </div>
+        <div class="home-image">
+            <img src="images/image2.png" alt="">
+        </div>
+
+    </section>
+
+    <!----about section---->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="images/image.png" alt="" height="400">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p>Hey My Name is Tanya Batra . I am a Web Developer and also learn new things to enhance my
+                        skills. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2023</span><br>BCA (Bachelor Of Computer Application )from Punjabi University ,
+                                Patiala</li>
+                            <li><span>2020</span><br>Diploma of Computer Software ,
+                                Hardware $ Networking from Swit institute of technologies in Nabha </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Programming language</span><br>HTML , CSS , JAVASCRIPT , BOOTSTRAP , REACT.JS ,
+                                GIT AND GITHUB , PHP AND MYSQL </li>
+                            <li><span>Soft Skills</span><br>MS-OFFICE ,PHOTOSHOP , CANVA , TALLY </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May2024 - Present</span><br>
+                               Working as a Web Developer <span> Remote</span>  </li>
+                            <li><span>May-June 2024</span><br>web development intership in CODTECH IT SOLUTIONS pvt ltd.<span> Remote</span> </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------services---------->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title"> <span>My</span> Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code-alt'></i>
+                    <h2>web design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, cum hic neque id voluptatibus
+                        officiis, nostrum, reprehenderit harum vero quaerat aliquam! Est recusandae architecto
+                        molestias. Eaque veniam sequi modi omnis.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class='bx bx-crop'></i>
+                    <h2>UI/UX design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, cum hic neque id voluptatibus
+                        officiis, nostrum, reprehenderit harum vero quaerat aliquam! Est recusandae architecto
+                        molestias. Eaque veniam sequi modi omnis.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class='bx bx-laptop'></i>
+                    <h2>App design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, cum hic neque id voluptatibus
+                        officiis, nostrum, reprehenderit harum vero quaerat aliquam! Est recusandae architecto
+                        molestias. Eaque veniam sequi modi omnis.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!---------------project---------->
+     <section class="project">
+        <h2 class="sub-title">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="images/image.png" alt="Project 1">
+                <div class="project-info">
+                    <h3>Project Title 1</h3>
+                    <p>Brief description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/image.png" alt="Project 2">
+                <div class="project-info">
+                    <h3>Project Title 2</h3>
+                    <p>Brief description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/image.png" alt="Project 2">
+                <div class="project-info">
+                    <h3>Project Title 2</h3>
+                    <p>Brief description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <a href="#" download class="btn1">See More</a>
+        </div>
+    </section>
+    <!---------------contact me ------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="sub-title"> <span>Contact</span> Me</h1>
+                    <p><i class='bx bxs-send'></i>tanyabatra949@gmail.com</p>
+                    <p><i class='bx bxs-phone-call'></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/tanya-batra-ab076a277"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.instagram.com/coder_sculptor/"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/tanya-batra"><i class='bx bxl-github'></i></a>
+                        <a href="https://tanyabatra949@gmail.com"><i class='bx bxl-gmail'></i></a>
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit"  method="POST">
+                        <input type="hidden" name="access_key" value="f0f86338-3568-4044-80de-e57a6e4d78ab">
+                        <input type="text" name="name" placeholder="Your Name" class="input" required>
+                        <input type="email" name="email" placeholder="Your Email"  class="input" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"  class="input" required></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!---------------footer------------>
+     <footer>
+        <p>Made by ❤️ Tanya Batra</p>
+      </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   
+    <script src="script.js"></script>
+</body>
+
+</html>
